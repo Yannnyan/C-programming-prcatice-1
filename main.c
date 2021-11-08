@@ -38,5 +38,6 @@ int main(){
          if(tempStrong == 1){printf(" %d",temp);}
          temp+=1;
      }
+    printf("\n");
      }
 
