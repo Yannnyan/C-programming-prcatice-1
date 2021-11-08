@@ -11,7 +11,7 @@ int isPrime(int p){
     return 1;
     */
    if(p == 0) return 0;
-   for(int i=2; i<= sqrt(p)+1; i++){
+   for(int i=2; i<= sqrt(p); i++){
        if(p % i == 0) return 0;
    }
    return 1;
